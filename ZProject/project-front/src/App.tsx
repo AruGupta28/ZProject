@@ -1,9 +1,10 @@
+import React from 'react';
 import './App.scss';
 
-function App() {
+const App:React.FC = () => {
   return (
     <div className="App">
-      hello
+      Hello
     </div>
   );
 }
